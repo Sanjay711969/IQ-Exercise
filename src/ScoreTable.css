@@ -1,0 +1,25 @@
+.ScoreTable {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  width: 80%;
+  background-color: white;
+  padding: 1em;
+}
+
+.ScoreTable table {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 400px;
+  align-items: center;
+  text-align: center;
+}
+
+.ScoreTable-section {
+  vertical-align: top;
+  width: 100%;
+}
+.ScoreTable-section h1 {
+  margin: 10px 30%;
+  border-bottom: 2px solid rebeccapurple;
+}
